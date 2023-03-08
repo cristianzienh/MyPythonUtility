@@ -1,6 +1,5 @@
 def busca():
-    lista = [1,2,3,4,5]
-    print("Digite o caracter a ser procurado: ")
+    print("Digite a palavra a ser procurada: ")
     args = input().split()
     caractere = str(args[0])
     print("Digite a string a ser procurado: ")
