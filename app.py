@@ -2,6 +2,7 @@ import sys
 from calculadora import *
 from busca import *
 from pi import *
+from parouimpar import *
 #Seleciona função
 #1 - Calculadora
 #2 - Inverte string
@@ -25,6 +26,8 @@ elif (funcao == "8"):
     busca()
 elif (funcao == "9"):
     piFunction()
+elif (funcao =="6"):
+    parouimpar()
 elif (funcao == ""): 
     pass
 else:
