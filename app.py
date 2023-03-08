@@ -13,11 +13,14 @@ from pi import *
 #8 - Verifica se palavra/caracter existe na string
 #9 - Imprime o número Pi com x casas decimais 
 #Enter - Sair
-print("Informe a funcão:\n1 - Calculadora" + "\n8 - Busca" +
-      "\n9 - Pi" "\nEnter - Sair")
+print("informe a funcão:\n1 - Calculadora" + "\n8 - Busca" + "\n9 - Pi" +
+      "\n5 - Palíndromo" + 
+      "\nEnter - Sair")
 funcao = input()
 if (funcao == "1"):
     calculate()
+elif (funcao == "5"): 
+    palindromo()
 elif (funcao == "8"):
     busca()
 elif (funcao == "9"):
@@ -25,8 +28,7 @@ elif (funcao == "9"):
 elif (funcao == ""): 
     pass
 else:
-    print("Função não implementada!")
-#Encerra   
+    print("Função não implementada!") 
 print("Bye!")
 
 
