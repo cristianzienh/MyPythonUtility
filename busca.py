@@ -2,14 +2,9 @@ def busca():
     lista = [1,2,3,4,5]
     print("Digite o caracter a ser procurado: ")
     args = input().split()
-    caractere = int(args[0])
-    if lista[0] == caractere:
-        print("O caractere procurado existe")
-    elif lista[1] == caractere:
-        print("O caractere procurado existe")
-    elif lista[2] == caractere:
-        print("O caractere procurado existe")
-    elif lista[3] == caractere:
-        print("O caractere procurado existe")
-    elif lista[4] == caractere:
-        print("O caractere procurado existe")
+    caractere = str(args[0])
+    string = str(args[1])
+    if caractere not in string:
+        print("A frase não tem " + caractere)
+    else:
+        print("A frase tem " + caractere)
