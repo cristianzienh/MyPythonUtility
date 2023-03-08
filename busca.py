@@ -3,7 +3,10 @@ def busca():
     print("Digite o caracter a ser procurado: ")
     args = input().split()
     caractere = str(args[0])
-    string = str(args[1])
+    print("Digite a string a ser procurado: ")
+    args = input()
+    string = str(args)
+
     if caractere not in string:
         print("A frase não tem " + caractere)
     else:
