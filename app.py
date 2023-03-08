@@ -11,16 +11,29 @@ from calculadora import *
 #8 - Verifica se palavra/caracter existe na string
 #9 - Imprime o número Pi com x casas decimais 
 #Enter - Sair
-print("informe a funcão:\n1 - Calculadora" + 
+
+
+import random
+
+print("informe a funcão:\n7 - Calculadora" + 
       "\nEnter - Sair")
 funcao = input()
-if (funcao == "1"):
+if (funcao == ""):
     calculate()
 elif (funcao == ""): 
     pass
 else:
     print("Função não implementada!")
-#Encerra   
-print("Bye!")
+
+
+inicio = int(input("Informe o valor inicial do intervalo: "))
+fim = int(input("Informe o valor final do intervalo: "))
+
+
+numero_aleatorio = random.randint(inicio, fim)
+
+
+print(f"O número aleatório gerado foi: {numero_aleatorio}")
+
 
 
