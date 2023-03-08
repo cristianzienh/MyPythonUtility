@@ -8,3 +8,4 @@ def calculate():
         print("soma:", n1 + n2) 
     elif (operacao == "-") :
         print("subtracao:", n1 - n2)
+        print("subtracao:", n1 - n2)

@@ -1,6 +1,7 @@
 import sys
 from calculadora import *
 from busca import *
+from pi import *
 #Seleciona função
 #1 - Calculadora
 #2 - Inverte string
@@ -12,13 +13,15 @@ from busca import *
 #8 - Verifica se palavra/caracter existe na string
 #9 - Imprime o número Pi com x casas decimais 
 #Enter - Sair
-print("informe a funcão:\n1 - Calculadora" + "\n8 - Busca" +
-      "\nEnter - Sair")
+print("Informe a funcão:\n1 - Calculadora" + "\n8 - Busca" +
+      "\n9 - Pi" "\nEnter - Sair")
 funcao = input()
 if (funcao == "1"):
     calculate()
 elif (funcao == "8"):
     busca()
+elif (funcao == "9"):
+    piFunction()
 elif (funcao == ""): 
     pass
 else:
