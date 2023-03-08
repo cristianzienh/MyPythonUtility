@@ -1,8 +1,6 @@
 import sys
 from calculadora import *
-from busca import *
-from pi import *
-from parouimpar import *
+from po import *
 #Seleciona função
 #1 - Calculadora
 #2 - Inverte string
@@ -14,26 +12,16 @@ from parouimpar import *
 #8 - Verifica se palavra/caracter existe na string
 #9 - Imprime o número Pi com x casas decimais 
 #Enter - Sair
-print("informe a funcão:\n1 - Calculadora" +  "\n6 - Par Ou Impar" + "\n8 - Busca" + "\n9 - Pi" +
-      "\n5 - Palíndromo" + 
+print("informe a funcão:\n1 - Calculadora" + "\n3 - Ordena caracters da string"
       "\nEnter - Sair")
 funcao = input()
 if (funcao == "1"):
     calculate()
-elif (funcao == "5"): 
-    palindromo()
-elif (funcao == "8"):
-    busca()
-elif (funcao == "9"):
-    piFunction()
-elif (funcao =="6"):
-    parouimpar()
-elif (funcao == ""): 
-    pass
+elif (funcao == "3"): 
+    ordena()
 else:
-    print("Função não implementada!") 
+    print("Função não implementada!")
+#Encerra   
 print("Bye!")
-
-
 
 
