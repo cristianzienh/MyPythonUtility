@@ -1,9 +1,5 @@
-def inverte_string(texto):
-    return texto[::-1]
-
-texto_original = (input("Digite a String: "))
-texto_invertido = inverte_string(texto_original)
-
-print("-------------------------------")
-print("Texto original: ", texto_original)
-print("Texto invertido: ", texto_invertido)
+def inverte_string(string_normal, string_invertida):
+    string_normal = input("digite a string: ")
+    string_invertida = string_normal[::-1 ]
+    print("String normal:", string_normal)
+    print("String invertida", string_invertida)
