@@ -16,7 +16,7 @@ from inverte_string import *
 #8 - Verifica se palavra/caracter existe na string
 #9 - Imprime o número Pi com x casas decimais 
 #Enter - Sair
-print("informe a funcão:\n1 - Calculadora" + "\n2 - Inverte string" *"\n3 - Ordena String " + "\n5 - Palíndromo" +  "\n6 - Par Ou Impar" + "\n8 - Busca" + "\n9 - Pi" +
+print("informe a funcão:\n1 - Calculadora" + "\n2 - Inverte string" + "\n3 - Ordena String " + "\n5 - Palíndromo" +  "\n6 - Par Ou Impar" + "\n8 - Busca" + "\n9 - Pi" +
       "\nEnter - Sair")
 funcao = input()
 if (funcao == "1"):
