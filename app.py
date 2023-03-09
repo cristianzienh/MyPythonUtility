@@ -4,6 +4,7 @@ from busca import *
 from pi import *
 from parouimpar import *
 from po import *
+from inverte_string import *
 #Seleciona função
 #1 - Calculadora
 #2 - Inverte string
@@ -15,12 +16,14 @@ from po import *
 #8 - Verifica se palavra/caracter existe na string
 #9 - Imprime o número Pi com x casas decimais 
 #Enter - Sair
-print("informe a funcão:\n1 - Calculadora" +"\n3 - Ordena String " + "\n5 - Palíndromo" +  "\n6 - Par Ou Impar" + "\n8 - Busca" + "\n9 - Pi" +
+print("informe a funcão:\n1 - Calculadora" + "\n2 - Inverte string" *"\n3 - Ordena String " + "\n5 - Palíndromo" +  "\n6 - Par Ou Impar" + "\n8 - Busca" + "\n9 - Pi" +
       
       "\nEnter - Sair")
 funcao = input()
 if (funcao == "1"):
     calculate()
+elif (funcao == "2"): 
+    inverte_string()
 elif (funcao =="3"):
     ordena()
 elif (funcao == "5"): 
