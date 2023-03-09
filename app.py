@@ -3,6 +3,7 @@ from calculadora import *
 from busca import *
 from pi import *
 from parouimpar import *
+from po import*
 #Seleciona função
 #1 - Calculadora
 #2 - Inverte string
@@ -20,6 +21,8 @@ print("informe a funcão:\n1 - Calculadora" +"\n3 - Ordena String " +  "\n6 - Pa
 funcao = input()
 if (funcao == "1"):
     calculate()
+elif (funcao =="3"):
+    ordena()
 elif (funcao == "5"): 
     palindromo()
 elif (funcao == "8"):
